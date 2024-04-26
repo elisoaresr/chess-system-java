@@ -31,7 +31,7 @@ public class Position {
 	}
 
 	@Override
-	public String toString() {
+	public String toString() { // The object class is a superclass of all classes. Therefore, we are overwriting the toString that is from the Object class.
 		StringBuilder sb = new StringBuilder();
 		sb.append(row + ", " + column);
 		return sb.toString();
