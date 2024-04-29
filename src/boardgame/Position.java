@@ -29,6 +29,11 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
+	
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
 
 	@Override
 	public String toString() { // The object class is a superclass of all classes. Therefore, we are overwriting the toString that is from the Object class.
