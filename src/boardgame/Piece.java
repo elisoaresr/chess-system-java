@@ -18,9 +18,10 @@ public abstract class Piece {
 	
 	public boolean possibleMove(Position position) {
 		return possibleMoves()[position.getRow()][position.getColumn()];
-		//This method is calling a possible implementation of some class concrete of the Piece class.
-	   //We have a method concrecte using an abstract method;
-	  //It technique is call of hook methods;		
+		/*This method is calling a possible implementation of some class concrete of the Piece class.
+	   	  We have a method concrete using an abstract method;
+	      It technique is call of hook methods;
+	     */		
 		
 	}
 	
